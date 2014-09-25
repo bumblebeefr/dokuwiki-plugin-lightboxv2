@@ -5,7 +5,7 @@
 jQuery(function($) {
 	var jsonData = [];
 
-	$('a[class=media]').each(function() {
+	$('a.media').each(function() {
 		var img = $(this).find('img');
 		if (!img.length) {
 			return false;
